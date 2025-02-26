@@ -15,3 +15,14 @@ sudo systemctl enable jenkins
  sudo systemctl start jenkins
 
   sudo systemctl status jenkins
+
+
+
+
+# resize the size of temperary folder
+sudo mount -o remount,size=2G /tmp 
+# mount permanently to ebs
+sudo nano /etc/fstab
+tmpfs /tmp tmpfs defaults,size=2G 0 0
+ceck by reboot  
+sudo reboot
