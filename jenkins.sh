@@ -48,6 +48,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable jenkins
 
 sudo systemctl restart jenkins
+sudo yum install git -y
 df -h
 
 sudo systemctl status jenkins
