@@ -1,7 +1,7 @@
 mkdir nodejsapp
 cd nodejsapp
 sudo yum install nodejs npm -y
-sudo yum install git -y
+sudo yum install git nginx -y
 git init
 git config --global user.name tejasKhamkar2211
 git config --global user.email tejaskhamkar@gmail.com
